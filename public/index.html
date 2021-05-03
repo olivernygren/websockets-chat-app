@@ -11,6 +11,7 @@
 			crossorigin="anonymous"
 		/>
 		<link rel="stylesheet" href="css/style.css" />
+		<script defer src="./js/rooms.js"></script>
 		<title>ChatCord App</title>
 	</head>
 	<body>
@@ -19,6 +20,11 @@
 				<h1><i class="fas fa-smile"></i> ChatCord</h1>
 			</header>
 			<main class="join-main">
+				<div class="form-control">
+					<label for="create-room">Create Room</label>
+					<input type="text" id="new-room">
+					<button id="create-room-btn" type="submit" class="btn">Create</button>
+				</div>
 				<form action="chat.html">
 					<div class="form-control">
 						<label for="username">Username</label>
