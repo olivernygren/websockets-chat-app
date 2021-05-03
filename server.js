@@ -53,6 +53,8 @@ io.on('connection', (socket) => {
       })
     }
 
+    // radera rum om users i rummet efter disconnect = 0
+
   })
 })
 
